@@ -18,10 +18,6 @@
       $('.back-to-top').fadeOut('slow');
     }
   });
-  $('.back-to-top').click(function(){
-    $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
-    return false;
-  });
 
   // Initiate the wowjs animation library
   new WOW().init();
@@ -220,7 +216,7 @@ $(window).scroll(function () {
                 },
 
                 {
-                    duration: 2000,
+                    duration: 950,
                     easing: "swing",
                     step: function () {
                         //$this.text(Math.ceil(this.countNum));
