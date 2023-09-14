@@ -248,3 +248,7 @@ $(window).scroll(function () {
 
 })(jQuery);
 
+(function() {
+  new PureCounter();
+})()
+
