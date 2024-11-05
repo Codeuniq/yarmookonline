@@ -303,7 +303,7 @@ function showSlider(type){
     clearTimeout(runNextAuto);
     runNextAuto = setTimeout(() => {
         next.click();
-    }, timeAutoNext)
+    }, timeAutoNext)    
 }
 
 
