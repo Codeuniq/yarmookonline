@@ -62,7 +62,18 @@
             <li><a href="#about">About Us</a></li>
             <li><a href="shop.html">Product</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><div id='google_translate_element'></div></li>
           </ul>
+          <script>
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({
+            pageLanguage: 'en',
+            autoDisplay: 'true',
+            includedLanguages: 'en,ar,fr,zh-CN,hi,ja', // <- remove this line to show all language
+            layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+          }, 'google_translate_element');
+        }
+      </script>
         </nav><!-- .navbar -->
       <!-- </div> -->
     </div>
@@ -1427,6 +1438,7 @@
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
 
   <!-- Template Main Javascript File -->
   <script src="assets/js/main.js"></script>
