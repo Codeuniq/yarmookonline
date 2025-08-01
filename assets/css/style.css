@@ -11,6 +11,7 @@
 
 body {
   background: #fff;
+  top: 0 !important;
   color: #666666;
   font-family: "Open Sans", sans-serif;
 }
@@ -243,7 +244,7 @@ h6 {
   color: #fff;
   /* font-family: "Montserrat", sans-serif; */
   font-family: "Emirates Bold";
-  font-weight: 700;
+  font-weight: 500;
   font-size: 14px;
   text-transform: uppercase;
   outline: none;
@@ -2804,3 +2805,28 @@ padding: 7em 0;
       .owl-carousel .owl-nav .owl-prev{
         display:none !important;
       }
+
+      #google_translate_element select {
+  background: #b62122;
+  color: #fff4e4;
+  border: none;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: 4px 4px
+}
+ 
+.goog-te-gadget {
+  color: transparent !important;
+  font-size: 0px;
+}
+.goog-text-highlight {
+  background: transparent !important;
+  box-shadow: transparent !important;
+}
+body>.skiptranslate, .goog-logo-link, .gskiptranslate, .goog-te-gadget span, .goog-te-banner-frame, #goog-gt-tt, .goog-te-balloon-frame, div#goog-gt-tt {
+  display: none !important;
+}
+.goog-te-gadget .goog-te-combo {
+    margin: 0px 0 !important;
+    
+}
